@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import MarkdownPreview from '@uiw/react-markdown-preview';
+import GitHubCorners from '@uiw/react-github-corners';
 import logo from './logo.svg';
 import ReactPrismjs from '../';
 import 'prismjs/components/prism-java';
@@ -62,6 +63,7 @@ export default () => {
   const [code, setCode] = useState(codeJSString);
   return (
     <div className="App">
+      <GitHubCorners zIndex={9999} fixed target="__blank" href="https://github.com/uiwjs/react-prismjs" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -81,10 +83,10 @@ export default () => {
             {lang === 'javascript' && '√'} Set JavaScript Lang
           </button>
         </div>
-        <div>
-          <ReactPrismjs language={lang} source={code} />
-        </div>
       </header>
+      <div style={{ minWidth: 320, fontSize: 21, maxWidth: 960, margin: '0 auto' }}>
+        <ReactPrismjs language={lang} source={code} />
+      </div>
       <pre className="info">
         <MarkdownPreview className="App-markdown" source={MDStr.replace(/([\s\S]*)<!--dividing-->/, '')} />
       </pre>
