@@ -2,6 +2,12 @@
 ===
 <!--dividing-->
 
+[![](https://img.shields.io/github/issues/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/issues)
+[![](https://img.shields.io/github/forks/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/network)
+[![](https://img.shields.io/github/stars/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/stargazers)
+[![](https://img.shields.io/github/release/uiwjs/react-prismjs)](https://github.com/uiwjs/react-prismjs/releases)
+[![](https://img.shields.io/npm/v/@uiw/react-prismjs.svg)](https://www.npmjs.com/package/@uiw/react-prismjs)
+
 React Component for [prismjs](https://github.com/PrismJS/prism). The current [document website](https://uiwjs.github.io/react-prismjs/).
 
 ## Install
