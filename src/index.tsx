@@ -1,70 +1,45 @@
-
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
+import Prism from 'prismjs';
 import './style/index.less';
 
-export interface ButtonProps {
+export interface ReactPrismjsProps {
   prefixCls?: string;
-  type?: string;
-  size?: 'large' | 'default' | 'small';
-  active?: boolean;
-  disabled?: boolean;
-  block?: boolean;
-  basic?: boolean;
-  loading?: boolean;
+  language?: string;
+  source?: string;
   className?: string;
   children?: React.ReactNode;
-  htmlType?: React.ButtonHTMLAttributes<HTMLButtonElement>['type'];
 }
-export default function Button(props: ButtonProps = {}) {
 
-  const { prefixCls, type, size, active, disabled, block, basic, className, loading, children, htmlType, ...others } = props;
-  const cls = classnames(className, prefixCls, {
-    [`${prefixCls}-${size}`]: size,
-    [`${prefixCls}-${type}`]: type,
-    [`${prefixCls}-basic`]: basic,
-    [`${prefixCls}-loading`]: loading, // 加载
-    disabled: disabled || loading, // 禁用状态
-    active, // 激活状态
-    block, // 块级元素Block level
-  });
-  /* eslint-disable */
+export default function ReactPrismjs(props: ReactPrismjsProps = {}) {
+  const codeRef = React.createRef<HTMLPreElement>();
+  const { prefixCls, className, language, source, children, ...others } = props;
+  const langCls = language ? `language-${language}` : '';
+  async function highlight() {
+    if (codeRef.current) {
+      Prism.highlightElement(codeRef.current as Element);
+    }
+  }
+  useEffect(() => {
+    highlight();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [language, source]);
   return (
-    <button
-      {...others}
-      disabled={disabled || loading}
-      type={htmlType}
-      className={cls}
-    >
-      {children && React.Children.map(children, (child) => {
-        if (React.isValidElement(child)) return child;
-        return <span> {child} </span>;
-      })}
-    </button>
+      <pre className={`${prefixCls} ${className || ''} ${langCls}`} {...others}>
+        <code className={langCls} ref={codeRef}>
+          {source || children}
+        </code>
+      </pre>
   );
 }
 
-
-Button.defaultProps = {
-  prefixCls: 'w-btn',
-  disabled: false,
-  active: false,
-  loading: false,
-  block: false,
-  basic: false,
-  htmlType: 'button',
-  type: 'light',
-  size: 'default',
+ReactPrismjs.defaultProps = {
+  prefixCls: 'w-prismjs',
+  code: '',
 };
-Button.propTypes = {
+
+ReactPrismjs.propTypes = {
   prefixCls: PropTypes.string,
-  loading: PropTypes.bool,
-  disabled: PropTypes.bool,
-  block: PropTypes.bool,
-  active: PropTypes.bool,
-  basic: PropTypes.bool,
-  htmlType: PropTypes.string,
-  type: PropTypes.oneOf(['primary', 'success', 'warning', 'danger', 'light', 'dark', 'link']),
-  size: PropTypes.oneOf(['large', 'default', 'small']),
+  language: PropTypes.string,
+  code: PropTypes.string,
 };

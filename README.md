@@ -2,7 +2,7 @@
 ===
 <!--dividing-->
 
-React Component for prismjs.
+React Component for [prismjs](https://github.com/PrismJS/prism). The current [document website](https://uiwjs.github.io/react-prismjs/).
 
 ## Install
 
@@ -12,13 +12,29 @@ npm i @uiw/react-prismjs
 
 ## Basic Usage
 
-```jsx
+```js
 import ReactPrismjs from '@uiw/react-prismjs';
+import 'prismjs/components/prism-java';
 
 const Dome = () => (
-  <ReactPrismjs />
+  <ReactPrismjs language="java" source="java code string." />
 );
 ```
+
+### Options Props
+
+```typescript
+interface ReactPrismjsProps {
+  prefixCls?: string;
+  language?: string;
+  source?: string;
+  className?: string;
+}
+```
+
+- `source` - _string_ The code string source to parse (**required**)
+- `language` - _string_ A language id in [`Prism.languages`](https://github.com/PrismJS/prism/blob/388ad996c4b576205de4d4feda69202bd26c1345/components.json).
+- `className` - _string_ Class name of the container element.
 
 ## Development
 
