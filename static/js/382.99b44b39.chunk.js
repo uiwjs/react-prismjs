@@ -1,0 +1,2 @@
+(this["webpackJsonp@uiw/react-prismjs"]=this["webpackJsonp@uiw/react-prismjs"]||[]).push([[382],{416:function(s,i){var a=Prism.util.clone(Prism.languages.typescript);Prism.languages.tsx=Prism.languages.extend("jsx",a)}}]);
+//# sourceMappingURL=382.99b44b39.chunk.js.map
