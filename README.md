@@ -1,6 +1,8 @@
-React Component Example for TypeScript.
+@uiw/react-prismjs
 ===
+<!--dividing-->
 
+React Component for prismjs.
 
 ## Install
 
@@ -12,8 +14,6 @@ npm i @uiw/react-prismjs
 
 ```jsx
 import ReactPrismjs from '@uiw/react-prismjs';
-import React from 'react';
-import ReactDOM from 'react-dom';
 
 const Dome = () => (
   <ReactPrismjs />

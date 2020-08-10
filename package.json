@@ -1,7 +1,7 @@
 {
   "name": "@uiw/react-prismjs",
   "version": "1.0.0",
-  "description": "React Component Example for TypeScript.",
+  "description": "React Component for prismjs.",
   "private": true,
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -41,6 +41,7 @@
     "@types/classnames": "2.2.10",
     "@types/react": "16.9.34",
     "@types/react-dom": "16.9.6",
+    "@uiw/react-markdown-preview": "1.0.8",
     "compile-less-cli": "1.4.0",
     "kkt": "5.9.0",
     "react": "16.13.1",
