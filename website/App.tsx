@@ -87,9 +87,9 @@ export default () => {
       <div style={{ minWidth: 320, fontSize: 21, maxWidth: 960, margin: '0 auto' }}>
         <ReactPrismjs language={lang} source={code} />
       </div>
-      <pre className="info">
+      <div className="info">
         <MarkdownPreview className="App-markdown" source={MDStr.replace(/([\s\S]*)<!--dividing-->/, '')} />
-      </pre>
+      </div>
     </div>
   );
 }
