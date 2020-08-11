@@ -2,6 +2,7 @@
   "name": "@uiw/react-prismjs",
   "version": "1.1.0",
   "description": "React Component for prismjs.",
+  "homepage": "https://uiwjs.github.io/react-prismjs/",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "scripts": {
@@ -21,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kktjs/kkt.git"
+    "url": "https://github.com/uiwjs/react-prismjs.git"
   },
   "author": "",
   "license": "MIT",
