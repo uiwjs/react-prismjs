@@ -27,6 +27,15 @@ const Dome = () => (
 );
 ```
 
+### Theme
+
+Support [`prismjs`](https://github.com/PrismJS/prism/tree/master/themes) theme setting
+
+```js
+import ReactPrismjs from '@uiw/react-prismjs';
+import 'prismjs/themes/prism-coy.css';
+```
+
 ### Options Props
 
 ```typescript
