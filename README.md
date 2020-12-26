@@ -2,6 +2,7 @@
 ===
 <!--dividing-->
 
+[![](https://github.com/uiwjs/react-prismjs/workflows/Build%20&%20Deploy/badge.svg)](https://github.com/uiwjs/react-prismjs/actions)
 [![](https://img.shields.io/github/issues/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/issues)
 [![](https://img.shields.io/github/forks/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/network)
 [![](https://img.shields.io/github/stars/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/stargazers)
