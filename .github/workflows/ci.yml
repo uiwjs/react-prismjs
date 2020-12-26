@@ -1,4 +1,4 @@
-name: Build and Deploy react-prismjs
+name: Build & Deploy
 on:
   push:
     branches:
