@@ -38,7 +38,7 @@
     "prop-types": "15.7.2"
   },
   "devDependencies": {
-    "@kkt/loader-less": "5.9.0",
+    "@kkt/loader-less": "5.11.1",
     "@kkt/loader-raw": "5.9.0",
     "@uiw/react-github-corners": "1.2.0",
     "@uiw/react-markdown-preview": "1.0.9",
