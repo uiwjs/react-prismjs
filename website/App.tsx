@@ -58,7 +58,7 @@ public class Class<T, V> implements MyInterface {
 }
 `;
 
-export default () => {
+const APP = () => {
   const [lang, setLang] = useState('javascript');
   const [code, setCode] = useState(codeJSString);
   return (
@@ -93,3 +93,5 @@ export default () => {
     </div>
   );
 }
+
+export default APP;
