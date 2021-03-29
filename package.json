@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@types/react": "16.9.46",
-    "@types/react-dom": "16.9.8",
+    "@types/react-dom": "16.9.12",
     "@types/prismjs": "1.16.1",
     "prismjs": "1.21.0",
     "prop-types": "15.7.2"
