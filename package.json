@@ -43,7 +43,7 @@
     "@kkt/raw-modules": "6.8.2",
     "@kkt/scope-plugin-options": "6.8.2",
     "@uiw/react-github-corners": "1.2.0",
-    "@uiw/react-markdown-preview": "2.1.1",
+    "@uiw/react-markdown-preview": "2.1.3",
     "compile-less-cli": "1.7.0",
     "kkt": "6.8.2",
     "react": "17.0.2",
