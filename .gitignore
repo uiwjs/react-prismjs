@@ -1,6 +1,8 @@
-node_modules
-lib
+cjs
+esm
 build
+w-heatmap.css
+node_modules
 npm-debug.log*
 package-lock.json
 .DS_Store
