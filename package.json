@@ -1,6 +1,6 @@
 {
   "name": "@uiw/react-prismjs",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React Component for prismjs.",
   "homepage": "https://uiwjs.github.io/react-prismjs/",
   "main": "cjs/index.js",
