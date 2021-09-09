@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-prismjs/static/css/main.00750614.chunk.css",
-    "main.js": "/react-prismjs/static/js/main.a4b69447.chunk.js",
-    "main.js.map": "/react-prismjs/static/js/main.a4b69447.chunk.js.map",
-    "micromark-vendor.js": "/react-prismjs/static/js/micromark-vendor.03dc2599.chunk.js",
-    "micromark-vendor.js.map": "/react-prismjs/static/js/micromark-vendor.03dc2599.chunk.js.map",
-    "react-vendor.js": "/react-prismjs/static/js/react-vendor.0ed2c47c.chunk.js",
-    "react-vendor.js.map": "/react-prismjs/static/js/react-vendor.0ed2c47c.chunk.js.map",
+    "main.js": "/react-prismjs/static/js/main.13b3bd4b.chunk.js",
+    "main.js.map": "/react-prismjs/static/js/main.13b3bd4b.chunk.js.map",
+    "micromark-vendor.js": "/react-prismjs/static/js/micromark-vendor.5a92d91b.chunk.js",
+    "micromark-vendor.js.map": "/react-prismjs/static/js/micromark-vendor.5a92d91b.chunk.js.map",
+    "react-vendor.js": "/react-prismjs/static/js/react-vendor.2c51ce76.chunk.js",
+    "react-vendor.js.map": "/react-prismjs/static/js/react-vendor.2c51ce76.chunk.js.map",
     "runtime-main.js": "/react-prismjs/static/js/runtime-main.3cc2d09c.js",
     "runtime-main.js.map": "/react-prismjs/static/js/runtime-main.3cc2d09c.js.map",
     "index.html": "/react-prismjs/index.html",
     "static/css/main.00750614.chunk.css.map": "/react-prismjs/static/css/main.00750614.chunk.css.map",
-    "static/js/main.a4b69447.chunk.js.LICENSE.txt": "/react-prismjs/static/js/main.a4b69447.chunk.js.LICENSE.txt",
-    "static/js/react-vendor.0ed2c47c.chunk.js.LICENSE.txt": "/react-prismjs/static/js/react-vendor.0ed2c47c.chunk.js.LICENSE.txt",
+    "static/js/main.13b3bd4b.chunk.js.LICENSE.txt": "/react-prismjs/static/js/main.13b3bd4b.chunk.js.LICENSE.txt",
+    "static/js/react-vendor.2c51ce76.chunk.js.LICENSE.txt": "/react-prismjs/static/js/react-vendor.2c51ce76.chunk.js.LICENSE.txt",
     "static/media/logo.3931a054.svg": "/react-prismjs/static/media/logo.3931a054.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3cc2d09c.js",
-    "static/js/micromark-vendor.03dc2599.chunk.js",
-    "static/js/react-vendor.0ed2c47c.chunk.js",
+    "static/js/micromark-vendor.5a92d91b.chunk.js",
+    "static/js/react-vendor.2c51ce76.chunk.js",
     "static/css/main.00750614.chunk.css",
-    "static/js/main.a4b69447.chunk.js"
+    "static/js/main.13b3bd4b.chunk.js"
   ]
 }
