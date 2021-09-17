@@ -50,7 +50,7 @@ jobs:
         name: ${{ steps.create_tag.outputs.version }}
         tag: ${{ steps.create_tag.outputs.version }}
         body: |
-          [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-prismjs@${{steps.create_tag.outputs.versionNumber}}/file/README.md) [![](https://img.shields.io/github/issues/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/releases) [![](https://img.shields.io/github/forks/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/network) [![](https://img.shields.io/github/stars/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/stargazers) [![](https://img.shields.io/github/release/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/releases) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uiw/react-prismjs)](https://bundlephobia.com/result?p=@uiw/react-prismjs@${{steps.create_tag.outputs.versionNumber}})
+          [![](https://img.shields.io/badge/Open%20in-unpkg-blue)](https://uiwjs.github.io/npm-unpkg/#/pkg/@uiw/react-prismjs@${{steps.create_tag.outputs.versionNumber}}/file/README.md) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uiw/react-prismjs.svg)](https://bundlephobia.com/result?p=@uiw/react-prismjs@${{steps.create_tag.outputs.versionNumber}})
 
           ```bash
           npm i @uiw/react-prismjs@${{steps.create_tag.outputs.versionNumber}}
