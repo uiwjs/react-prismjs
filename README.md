@@ -2,12 +2,10 @@
 ===
 <!--dividing-->
 
-[![Build & Deploy](https://github.com/uiwjs/react-prismjs/workflows/Build%20&%20Deploy/badge.svg)](https://github.com/uiwjs/react-prismjs/actions)
-[![Issues](https://img.shields.io/github/issues/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/issues)
-[![Forks](https://img.shields.io/github/forks/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/network)
-[![Stars](https://img.shields.io/github/stars/uiwjs/react-prismjs.svg)](https://github.com/uiwjs/react-prismjs/stargazers)
-[![Release](https://img.shields.io/github/release/uiwjs/react-prismjs)](https://github.com/uiwjs/react-prismjs/releases)
+[![Build & Deploy](https://github.com/uiwjs/react-prismjs/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/react-prismjs/actions/workflows/ci.yml)
+[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/react-md-editor.svg?style=flat)](https://www.npmjs.com/package/@uiw/react-md-editor)
 [![npm version](https://img.shields.io/npm/v/@uiw/react-prismjs.svg)](https://www.npmjs.com/package/@uiw/react-prismjs)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uiw/react-prismjs.svg)](https://bundlephobia.com/result?p=@uiw/react-prismjs)
 
 React Component for [prismjs](https://github.com/PrismJS/prism). The current [document website](https://uiwjs.github.io/react-prismjs/).
 
