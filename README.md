@@ -17,6 +17,8 @@ npm i @uiw/react-prismjs
 
 ## Basic Usage
 
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/example-uiw-react-prismjs-uj67m?fontsize=14&hidenavigation=1&theme=dark)
+
 ```js
 import ReactPrismjs from '@uiw/react-prismjs';
 import 'prismjs/components/prism-java';
