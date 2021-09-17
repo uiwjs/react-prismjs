@@ -3,7 +3,7 @@
 <!--dividing-->
 
 [![Build & Deploy](https://github.com/uiwjs/react-prismjs/actions/workflows/ci.yml/badge.svg)](https://github.com/uiwjs/react-prismjs/actions/workflows/ci.yml)
-[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/react-md-editor.svg?style=flat)](https://www.npmjs.com/package/@uiw/react-md-editor)
+[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/react-prismjs.svg?style=flat)](https://www.npmjs.com/package/@uiw/react-prismjs)
 [![npm version](https://img.shields.io/npm/v/@uiw/react-prismjs.svg)](https://www.npmjs.com/package/@uiw/react-prismjs)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/@uiw/react-prismjs.svg)](https://bundlephobia.com/result?p=@uiw/react-prismjs)
 
