@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-prismjs/static/css/main.00750614.chunk.css",
-    "main.js": "/react-prismjs/static/js/main.089ae28f.chunk.js",
-    "main.js.map": "/react-prismjs/static/js/main.089ae28f.chunk.js.map",
+    "main.js": "/react-prismjs/static/js/main.87ce7737.chunk.js",
+    "main.js.map": "/react-prismjs/static/js/main.87ce7737.chunk.js.map",
     "micromark-vendor.js": "/react-prismjs/static/js/micromark-vendor.4542ab0f.chunk.js",
     "micromark-vendor.js.map": "/react-prismjs/static/js/micromark-vendor.4542ab0f.chunk.js.map",
     "react-vendor.js": "/react-prismjs/static/js/react-vendor.a31ceaa1.chunk.js",
@@ -11,7 +11,7 @@
     "runtime-main.js.map": "/react-prismjs/static/js/runtime-main.d88054a2.js.map",
     "index.html": "/react-prismjs/index.html",
     "static/css/main.00750614.chunk.css.map": "/react-prismjs/static/css/main.00750614.chunk.css.map",
-    "static/js/main.089ae28f.chunk.js.LICENSE.txt": "/react-prismjs/static/js/main.089ae28f.chunk.js.LICENSE.txt",
+    "static/js/main.87ce7737.chunk.js.LICENSE.txt": "/react-prismjs/static/js/main.87ce7737.chunk.js.LICENSE.txt",
     "static/js/react-vendor.a31ceaa1.chunk.js.LICENSE.txt": "/react-prismjs/static/js/react-vendor.a31ceaa1.chunk.js.LICENSE.txt",
     "static/media/logo.3931a054.svg": "/react-prismjs/static/media/logo.3931a054.svg"
   },
@@ -20,6 +20,6 @@
     "static/js/micromark-vendor.4542ab0f.chunk.js",
     "static/js/react-vendor.a31ceaa1.chunk.js",
     "static/css/main.00750614.chunk.css",
-    "static/js/main.089ae28f.chunk.js"
+    "static/js/main.87ce7737.chunk.js"
   ]
 }
