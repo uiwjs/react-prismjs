@@ -43,7 +43,7 @@
     "@kkt/scope-plugin-options": "6.11.0",
     "@uiw/react-github-corners": "1.5.3",
     "@uiw/react-markdown-preview": "3.3.3",
-    "compile-less-cli": "1.8.8",
+    "compile-less-cli": "1.8.9",
     "kkt": "6.11.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
