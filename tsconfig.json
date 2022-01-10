@@ -24,6 +24,7 @@
   },
   "include": [
     "website",
-    "src/**/*"
+    "src",
+    ".kktrc.ts"
   ]
 }

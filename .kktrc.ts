@@ -19,35 +19,40 @@ export default (conf: Configuration, env: string, options: LoaderConfOptions) =>
   conf.plugins!.push(new webpack.DefinePlugin({
     VERSION: JSON.stringify(pkg.version),
   }));
-  conf.optimization = {
-    ...conf.optimization,
-    splitChunks: {
-      cacheGroups: {
-        reactvendor: {
-          test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
-          name: 'react-vendor',
-          chunks: 'all',
-        },
-        katex: {
-          test: /[\\/]node_modules[\\/](katex)[\\/]/,
-          name: 'katex-vendor',
-          chunks: 'all',
-        },
-        micromark: {
-          test: /[\\/]node_modules[\\/](micromark)[\\/]/,
-          name: 'micromark-vendor',
-          chunks: 'all',
-        },
-        prismjs: {
-          test: /[\\/]node_modules[\\/](prismjs)[\\/]/,
-          name: 'prismjs-vendor',
-          chunks: 'async',
-        },
-      },
-    },
-  };
   if (env === 'production') {
     conf.output = { ...conf.output, publicPath: './' };
+    conf.optimization = {
+      ...conf.optimization,
+      splitChunks: {
+        cacheGroups: {
+          reactvendor: {
+            test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
+            name: 'react-vendor',
+            chunks: 'all',
+          },
+          prismjs: {
+            test: /[\\/]node_modules[\\/](prismjs)[\\/]/,
+            name: 'prismjs-vendor',
+            chunks: 'all',
+          },
+          micromark: {
+            test: /[\\/]node_modules[\\/](micromark)[\\/]/,
+            name: 'micromark-vendor',
+            chunks: 'all',
+          },
+          uiw: {
+            test: /[\\/]node_modules[\\/](\@uiw)[\\/]/,
+            name: 'uiw-vendor',
+            chunks: 'all',
+          },
+          parse5: {
+            test: /[\\/]node_modules[\\/](parse5)[\\/]/,
+            name: 'parse5-vendor',
+            chunks: 'all',
+          },
+        },
+      },
+    };
   }
   return conf;
 }
