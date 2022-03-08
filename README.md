@@ -64,3 +64,17 @@ npm run watch
 # development mode, listen to compile preview website instance
 npm run doc:dev
 ```
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/react-prismjs/graphs/contributors">
+  <img src="https://uiwjs.github.io/react-prismjs/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+
+## License
+
+Licensed under the MIT License.
