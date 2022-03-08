@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-prismjs/static/css/main.62d73483.css",
-    "main.js": "/react-prismjs/static/js/main.7d40d663.js",
+    "main.css": "/react-prismjs/static/css/main.6e9ab1b6.css",
+    "main.js": "/react-prismjs/static/js/main.e7328a59.js",
     "parse5-vendor.js": "/react-prismjs/static/js/parse5-vendor.56641308.js",
     "react-vendor.js": "/react-prismjs/static/js/react-vendor.b8619e74.js",
-    "prismjs-vendor.js": "/react-prismjs/static/js/prismjs-vendor.31fed439.js",
+    "prismjs-vendor.js": "/react-prismjs/static/js/prismjs-vendor.8687c77e.js",
     "static/media/logo.svg": "/react-prismjs/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-prismjs/index.html",
-    "main.62d73483.css.map": "/react-prismjs/static/css/main.62d73483.css.map",
-    "main.7d40d663.js.map": "/react-prismjs/static/js/main.7d40d663.js.map",
+    "main.6e9ab1b6.css.map": "/react-prismjs/static/css/main.6e9ab1b6.css.map",
+    "main.e7328a59.js.map": "/react-prismjs/static/js/main.e7328a59.js.map",
     "parse5-vendor.56641308.js.map": "/react-prismjs/static/js/parse5-vendor.56641308.js.map",
     "react-vendor.b8619e74.js.map": "/react-prismjs/static/js/react-vendor.b8619e74.js.map",
-    "prismjs-vendor.31fed439.js.map": "/react-prismjs/static/js/prismjs-vendor.31fed439.js.map"
+    "prismjs-vendor.8687c77e.js.map": "/react-prismjs/static/js/prismjs-vendor.8687c77e.js.map"
   },
   "entrypoints": [
     "static/js/parse5-vendor.56641308.js",
     "static/js/react-vendor.b8619e74.js",
-    "static/js/prismjs-vendor.31fed439.js",
-    "static/css/main.62d73483.css",
-    "static/js/main.7d40d663.js"
+    "static/js/prismjs-vendor.8687c77e.js",
+    "static/css/main.6e9ab1b6.css",
+    "static/js/main.e7328a59.js"
   ]
 }
