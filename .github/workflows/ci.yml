@@ -8,10 +8,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
-        node-version: 14
+        node-version: 16
 
     - run: npm install
     - run: npm run build
@@ -26,13 +26,13 @@ jobs:
 
     - name: Create Tag
       id: create_tag
-      uses: jaywcjlove/create-tag-action@v1.3.6
+      uses: jaywcjlove/create-tag-action@v1.3.7
       with:
         package-path: ./package.json
 
     - name: get tag version
       id: tag_version
-      uses: jaywcjlove/changelog-generator@v1.5.0
+      uses: jaywcjlove/changelog-generator@v1.5.7
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
@@ -43,7 +43,7 @@ jobs:
 
     - name: Generate Changelog
       id: changelog
-      uses: jaywcjlove/changelog-generator@v1.5.0
+      uses: jaywcjlove/changelog-generator@v1.5.7
       with:
         head-ref: ${{steps.create_tag.outputs.version}}
         filter-author: (renovate-bot|小弟调调™|dependabot|dependabot\[bot\]|Renovate Bot)
@@ -74,3 +74,30 @@ jobs:
         token: ${{ secrets.NPM_TOKEN }}
         package: ./package.json
 
+    outputs:
+      successful: ${{steps.create_tag.outputs.successful }}
+
+  github-package:
+    runs-on: ubuntu-18.04
+    needs: build-deploy
+    if: needs.build-deploy.outputs.successful
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com
+          scope: '@uiwjs'
+
+      - run: npm install
+      - run: npm run build
+
+      - name: Modify @uiw/react-prismjs => @uiwjs/react-prismjs
+        uses: jaywcjlove/github-action-package@main
+        with:
+          data: |
+            { "name": "@uiwjs/react-prismjs" }
+  
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
