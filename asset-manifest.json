@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/react-prismjs/static/css/main.ce9f2ac4.css",
-    "main.js": "/react-prismjs/static/js/main.c87ca4c0.js",
+    "main.css": "/react-prismjs/static/css/main.e5380200.css",
+    "main.js": "/react-prismjs/static/js/main.ed5d298d.js",
     "parse5-vendor.js": "/react-prismjs/static/js/parse5-vendor.8c026cdb.js",
-    "react-vendor.js": "/react-prismjs/static/js/react-vendor.b8619e74.js",
-    "prismjs-vendor.js": "/react-prismjs/static/js/prismjs-vendor.528be4b5.js",
+    "micromark-vendor.js": "/react-prismjs/static/js/micromark-vendor.efe0a0f9.js",
+    "react-vendor.js": "/react-prismjs/static/js/react-vendor.2898d29d.js",
+    "prismjs-vendor.js": "/react-prismjs/static/js/prismjs-vendor.ecf18ab6.js",
     "static/media/logo.svg": "/react-prismjs/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-prismjs/index.html",
-    "main.ce9f2ac4.css.map": "/react-prismjs/static/css/main.ce9f2ac4.css.map",
-    "main.c87ca4c0.js.map": "/react-prismjs/static/js/main.c87ca4c0.js.map",
+    "main.e5380200.css.map": "/react-prismjs/static/css/main.e5380200.css.map",
+    "main.ed5d298d.js.map": "/react-prismjs/static/js/main.ed5d298d.js.map",
     "parse5-vendor.8c026cdb.js.map": "/react-prismjs/static/js/parse5-vendor.8c026cdb.js.map",
-    "react-vendor.b8619e74.js.map": "/react-prismjs/static/js/react-vendor.b8619e74.js.map",
-    "prismjs-vendor.528be4b5.js.map": "/react-prismjs/static/js/prismjs-vendor.528be4b5.js.map"
+    "micromark-vendor.efe0a0f9.js.map": "/react-prismjs/static/js/micromark-vendor.efe0a0f9.js.map",
+    "react-vendor.2898d29d.js.map": "/react-prismjs/static/js/react-vendor.2898d29d.js.map",
+    "prismjs-vendor.ecf18ab6.js.map": "/react-prismjs/static/js/prismjs-vendor.ecf18ab6.js.map"
   },
   "entrypoints": [
     "static/js/parse5-vendor.8c026cdb.js",
-    "static/js/react-vendor.b8619e74.js",
-    "static/js/prismjs-vendor.528be4b5.js",
-    "static/css/main.ce9f2ac4.css",
-    "static/js/main.c87ca4c0.js"
+    "static/js/micromark-vendor.efe0a0f9.js",
+    "static/js/react-vendor.2898d29d.js",
+    "static/js/prismjs-vendor.ecf18ab6.js",
+    "static/css/main.e5380200.css",
+    "static/js/main.ed5d298d.js"
   ]
 }
