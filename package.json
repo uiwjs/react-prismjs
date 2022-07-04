@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@types/prismjs": "~1.26.0",
-    "prismjs": "~1.27.0",
+    "prismjs": "~1.28.0",
     "prop-types": "~15.8.1"
   },
   "devDependencies": {
