@@ -10,18 +10,16 @@ body {
 }
 
 .App-logo {
-  height: 40vmin;
+  max-height: 240px;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .info {
@@ -29,6 +27,9 @@ body {
   border-radius: 10px;
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px 20px;
   margin-bottom: 60px;
+}
+
+.App-markdown {
+  padding: 20px 20px;
 }

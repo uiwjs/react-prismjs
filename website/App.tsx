@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import GitHubCorners from '@uiw/react-github-corners';
+import '@wcj/dark-mode';
 import logo from './logo.svg';
 import ReactPrismjs from '../';
 import 'prismjs/components/prism-java';
@@ -63,6 +64,7 @@ const APP = () => {
   const [code, setCode] = useState(codeJSString);
   return (
     <div className="App">
+      <dark-mode permanent style={{ position: 'fixed', top: 10, left: 10 }} light="Light" dark="Dark"></dark-mode>
       <GitHubCorners zIndex={9999} fixed target="__blank" href="https://github.com/uiwjs/react-prismjs" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -88,7 +90,7 @@ const APP = () => {
         <ReactPrismjs language={lang} source={code} />
       </div>
       <div className="info">
-        <MarkdownPreview className="App-markdown" source={MDStr.replace(/([\s\S]*)<!--dividing-->/, '')} />
+        <MarkdownPreview className="App-markdown" source={MDStr.source} />
       </div>
     </div>
   );
