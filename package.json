@@ -34,8 +34,7 @@
   },
   "dependencies": {
     "@types/prismjs": "~1.26.0",
-    "prismjs": "~1.29.0",
-    "prop-types": "~15.8.1"
+    "prismjs": "~1.29.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.14",
