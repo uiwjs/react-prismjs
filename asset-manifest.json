@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-prismjs/static/css/main.f9d502c5.css",
-    "main.js": "/react-prismjs/static/js/main.c3516b78.js",
-    "parse5-vendor.js": "/react-prismjs/static/js/parse5-vendor.8c026cdb.js",
-    "micromark-vendor.js": "/react-prismjs/static/js/micromark-vendor.efe0a0f9.js",
-    "react-vendor.js": "/react-prismjs/static/js/react-vendor.2898d29d.js",
-    "prismjs-vendor.js": "/react-prismjs/static/js/prismjs-vendor.85b1f83c.js",
+    "main.css": "/react-prismjs/static/css/main.496812d9.css",
+    "main.js": "/react-prismjs/static/js/main.d5c889ff.js",
+    "parse5-vendor.js": "/react-prismjs/static/js/parse5-vendor.7f20efe8.js",
+    "micromark-vendor.js": "/react-prismjs/static/js/micromark-vendor.027b4dc9.js",
+    "react-vendor.js": "/react-prismjs/static/js/react-vendor.e4180902.js",
+    "prismjs-vendor.js": "/react-prismjs/static/js/prismjs-vendor.3e655e25.js",
     "static/media/logo.svg": "/react-prismjs/static/media/logo.3931a054f5ef8356122965d973d55570.svg",
     "index.html": "/react-prismjs/index.html",
-    "main.f9d502c5.css.map": "/react-prismjs/static/css/main.f9d502c5.css.map",
-    "main.c3516b78.js.map": "/react-prismjs/static/js/main.c3516b78.js.map",
-    "parse5-vendor.8c026cdb.js.map": "/react-prismjs/static/js/parse5-vendor.8c026cdb.js.map",
-    "micromark-vendor.efe0a0f9.js.map": "/react-prismjs/static/js/micromark-vendor.efe0a0f9.js.map",
-    "react-vendor.2898d29d.js.map": "/react-prismjs/static/js/react-vendor.2898d29d.js.map",
-    "prismjs-vendor.85b1f83c.js.map": "/react-prismjs/static/js/prismjs-vendor.85b1f83c.js.map"
+    "main.496812d9.css.map": "/react-prismjs/static/css/main.496812d9.css.map",
+    "main.d5c889ff.js.map": "/react-prismjs/static/js/main.d5c889ff.js.map",
+    "parse5-vendor.7f20efe8.js.map": "/react-prismjs/static/js/parse5-vendor.7f20efe8.js.map",
+    "micromark-vendor.027b4dc9.js.map": "/react-prismjs/static/js/micromark-vendor.027b4dc9.js.map",
+    "react-vendor.e4180902.js.map": "/react-prismjs/static/js/react-vendor.e4180902.js.map",
+    "prismjs-vendor.3e655e25.js.map": "/react-prismjs/static/js/prismjs-vendor.3e655e25.js.map"
   },
   "entrypoints": [
-    "static/js/parse5-vendor.8c026cdb.js",
-    "static/js/micromark-vendor.efe0a0f9.js",
-    "static/js/react-vendor.2898d29d.js",
-    "static/js/prismjs-vendor.85b1f83c.js",
-    "static/css/main.f9d502c5.css",
-    "static/js/main.c3516b78.js"
+    "static/js/parse5-vendor.7f20efe8.js",
+    "static/js/micromark-vendor.027b4dc9.js",
+    "static/js/react-vendor.e4180902.js",
+    "static/js/prismjs-vendor.3e655e25.js",
+    "static/css/main.496812d9.css",
+    "static/js/main.d5c889ff.js"
   ]
 }
