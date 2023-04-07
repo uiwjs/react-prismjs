@@ -81,7 +81,6 @@ jobs:
   github-package:
     runs-on: ubuntu-latest
     needs: build-deploy
-    if: needs.build-deploy.outputs.successful
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -96,8 +95,9 @@ jobs:
       - name: Modify @uiw/react-prismjs => @uiwjs/react-prismjs
         uses: jaywcjlove/github-action-package@main
         with:
-          rename: '@uiwjs/react-markdown-editor'
+          rename: '@uiwjs/react-prismjs'
   
       - run: npm publish
         env:
+          continue-on-error: true
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
