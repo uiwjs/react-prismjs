@@ -19,12 +19,10 @@
     "declaration": true,
     "baseUrl": "website",
     "jsx": "react-jsx",
-    "noFallthroughCasesInSwitch": true,
-    "noEmit": true
+    "outDir": "./cjs",
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "website",
-    "src",
-    ".kktrc.ts"
+    "src"
   ]
 }
