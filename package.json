@@ -16,7 +16,7 @@
     "@types/react-test-renderer": "^18.0.0",
     "@kkt/ncc": "^1.0.15",
     "compile-less-cli": "^1.8.14",
-    "husky": "^8.0.3",
+    "husky": "^9.0.0",
     "prettier": "^3.0.0",
     "lerna": "^7.1.4",
     "tsbb": "^4.1.14"
