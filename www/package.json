@@ -23,7 +23,7 @@
     "@uiw/react-prismjs": "1.3.6",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
-    "react-router-dom": "^6.8.1"
+    "react-router-dom": "^7.0.0"
   },
   "devDependencies": {
     "@kkt/scope-plugin-options": "^7.5.2",
