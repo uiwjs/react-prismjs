@@ -14,10 +14,18 @@ React Component for [prismjs](https://github.com/PrismJS/prism). The current [do
 ```bash
 npm i @uiw/react-prismjs
 ```
+## 🌏  Open in the Cloud 
+Click any of the buttons below to start a new development environment to demo or contribute to the codebase:
+
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/uiwjs/react-prismjs)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/uiwjs/react-prismjs)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/uiwjs/react-prismjs)
+[![Edit react-jsbarcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-jsbarcode-2659g?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-jsbarcode?file=src%2FApp.tsx)[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/uiwjs/react-prismjs)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/uiwjs/react-prismjs)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/uiwjs/react-prismjs)
 
 ## Basic Usage
-
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/embed/example-uiw-react-prismjs-uj67m?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx mdx:preview?background=#fff
 import React from 'react';
