@@ -11,8 +11,8 @@
     "version": "lerna version --no-changelog --no-git-tag-version --no-push"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@types/react-test-renderer": "^18.0.0",
     "@kkt/ncc": "^1.0.15",
     "compile-less-cli": "^1.8.14",
