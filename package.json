@@ -18,7 +18,7 @@
     "compile-less-cli": "^1.8.14",
     "husky": "^8.0.3",
     "prettier": "^3.0.0",
-    "lerna": "^7.1.4",
+    "lerna": "^8.0.0",
     "tsbb": "^4.1.14"
   },
   "eslintConfig": {
