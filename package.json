@@ -13,7 +13,7 @@
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "@types/react-test-renderer": "^18.0.0",
+    "@types/react-test-renderer": "^19.0.0",
     "@kkt/ncc": "^1.0.15",
     "compile-less-cli": "^1.8.14",
     "husky": "^8.0.3",
