@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a868b63.css",
-    "main.js": "/static/js/main.fc99502e.js",
+    "main.js": "/static/js/main.4a955d81.js",
     "micromark-vendor.js": "/static/js/micromark-vendor.19700954.js",
     "parse5-vendor.js": "/static/js/parse5-vendor.e8d24823.js",
     "uiw-vendor.js": "/static/js/uiw-vendor.6dd50f4c.js",
@@ -9,7 +9,7 @@
     "prismjs-vendor.js": "/static/js/prismjs-vendor.c325770c.js",
     "index.html": "/index.html",
     "main.1a868b63.css.map": "/static/css/main.1a868b63.css.map",
-    "main.fc99502e.js.map": "/static/js/main.fc99502e.js.map",
+    "main.4a955d81.js.map": "/static/js/main.4a955d81.js.map",
     "micromark-vendor.19700954.js.map": "/static/js/micromark-vendor.19700954.js.map",
     "parse5-vendor.e8d24823.js.map": "/static/js/parse5-vendor.e8d24823.js.map",
     "uiw-vendor.6dd50f4c.js.map": "/static/js/uiw-vendor.6dd50f4c.js.map",
@@ -23,6 +23,6 @@
     "static/js/react-vendor.62874a5d.js",
     "static/js/prismjs-vendor.c325770c.js",
     "static/css/main.1a868b63.css",
-    "static/js/main.fc99502e.js"
+    "static/js/main.4a955d81.js"
   ]
 }
